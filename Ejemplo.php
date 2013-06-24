@@ -3,7 +3,7 @@ $con = odbc_connect("Driver={SQL Server};Server=ACAD01;Database=ControlAcademico
 if($con){
   print "conexion exitosaaaa!<br>";
 }else{
-  print "error en conexion";
+  print "error en conexionnnn";
 }
 
 $sql = "SELECT * FROM DOCENTES";
