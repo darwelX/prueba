@@ -1,7 +1,7 @@
 <?php
 $con = odbc_connect("Driver={SQL Server};Server=ACAD01;Database=ControlAcademico","sa","");
 if($con){
-  print "conexion exitosa!<br>";
+  print "conexion exitosaaaa!<br>";
 }else{
   print "error en conexion";
 }
